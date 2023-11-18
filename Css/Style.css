@@ -1,0 +1,335 @@
+@font-face {
+
+	font-family: "Poppins-Regular";
+  	src: url("../Fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+  	src: url("../Fonts/Poppins-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "Jost-Regular";
+    src: url("../Fonts/Jost-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Jost-Bold";
+    src: url("../Fonts/Jost-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins-Regular", sans-serif;
+}
+
+:root {
+    --teme2: #ffd69633;
+    --teme1: rgba(67, 186, 253, 0.06);
+    --teme3:  rgba(255, 214, 150, 0.20);
+}
+
+a {
+    text-decoration: none;
+    color: #686565;
+}
+
+.head {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #0E0578;
+    font-size: 48px;
+    margin: 25px;
+    padding: 0 30px;
+}
+
+li {
+    list-style: none;
+    padding: 38px;
+}
+
+.Mymenu {
+    display: flex;
+    margin: 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Mymenu a {
+    margin: 20px;
+}
+
+.PortFolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collumn>* {
+    margin: 100px;
+    text-align: left;
+    width: 80%;
+}
+
+.Welcome {
+    color: #2000E7;
+    font-size: 30px;
+    font-family: "Poppins-Regular", sans-serif;
+}
+
+.colorblue {
+    color: rgba(32, 0, 231, 1);
+    font-size: 48px;
+    font-family: "Poppins-Bold", sans-serif;
+    text-align: left;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    margin: 50px;
+    color: #423c3c;
+}
+
+.buttonMy,
+.buttonHeer {
+    border-radius: 10px;
+    background: rgba(32, 0, 231, 0.04);
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+    width: 246px;
+    height: 52px;
+    color: rgba(32, 0, 231, 1);
+    font-size: 24px;
+    font-family: "Poppins-Regular", sans-serif;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    border: 2px solid #2000E7;
+}
+
+.Aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--teme1);
+}
+
+.About {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #2000E7;
+    font-size: 48px;
+    letter-spacing: 16.8px;
+    margin: 50px;
+}
+
+.history {
+    width: 415px;
+}
+
+.foto2 {
+    width: 925px;
+    height: 925px;
+    flex-shrink: 0;
+    float: right;
+}
+
+.MyProjects {
+    background-color: var(--teme2);
+}
+
+.projectname {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectname h2 {
+    font-family: "Poppins-Bold", sans-serif;
+    color: rgba(59, 31, 234, 1);
+    font-size: 48px;
+    letter-spacing: 0.2em;
+}
+
+.Project {
+    display: flex;
+    margin-left: 200px;
+}
+
+.Project img {
+    width: 248px;
+    height: 180px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.MyContact {
+    background-color: var(--teme1);
+}
+
+.contact h2 {
+    font-family: "Poppins-Bold", sans-serif;
+    margin: 0;
+    padding-top: 50px;
+    color: rgba(34, 11, 232, 1);
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 17.28px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Email,
+.Password,
+.button4 {
+    width: 400px;
+    height: 50px;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 30px 50px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    border: 1px solid #000;
+}
+
+.textarea {
+    width: 500px;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    margin: 50px;
+    resize: none;
+    padding-left: 15px;
+}
+
+.buttonContact {
+    text-align: center;
+    margin: 30px 150px 150px;
+    color: rgba(0, 0, 0, 1);
+    width: 327px;
+    letter-spacing: 5px;
+}
+
+.foto3 {
+    float: right;
+    width: 858px;
+    height: 958px;
+}
+
+footer {
+    background-color: var(--teme3);
+}
+
+.Logo2 {
+    color: rgba(14, 5, 120, 1);
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    margin-top: 0px;
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.Emailbutton {
+    border-radius: 30px;
+    background: #000;
+    width: 323px;
+    height: 97px;
+    color: #FFF;
+    font-size: 31px;
+    position: absolute;
+    text-align: left;
+    padding: 25px;
+    font-family: "Jost-Bold", sans-serif;
+}
+
+.Subscribe {
+    border-radius: 30px;
+    background: #F965FC;
+    color: #FFF;
+    font-size: 31px;
+    width: 178px;
+    height: 97px;
+    position: relative;
+    left: 200px;
+    border: none;
+    font-family: "Jost-Bold", sans-serif;
+}
+
+.footer section {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 800px;
+}
+
+.table thead {
+    font-family: "Jost-Bold", sans-serif;
+    font-size: 31px;
+    line-height: 45px;
+}
+
+td {
+    padding: 20px 30px;
+    text-align: center;
+    font-family: "Jost-Regular", sans-serif;
+    font-size: 31px;
+    line-height: 45px;
+}
+
+.theEnd {
+    display: inline-flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    height: 30px;
+    margin: 30px;
+}
+
+.theEnd span {
+    color: #000;
+    font-family: "Jost-Regular", sans-serif;
+    font-size: 26px;
+}
+
+.theEnd a img {
+    width: 40px;
+    height: 40px;
+}
