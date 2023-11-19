@@ -332,4 +332,11 @@ td {
 .theEnd a img {
     width: 40px;
     height: 40px;
+    margin-left: 30px;
+}
+
+.icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 }
