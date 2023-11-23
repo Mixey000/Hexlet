@@ -45,12 +45,11 @@ a {
     justify-content: space-between;
 }
 
-.logo {
+.logo a {
     font-family: "Poppins-Bold", sans-serif;
     color: #0E0578;
     font-size: 48px;
-    margin: 25px;
-    padding: 0 30px;
+    margin: 0 50px;
 }
 
 li {
@@ -257,7 +256,7 @@ footer {
     background-color: var(--teme3);
 }
 
-.Logo2 {
+.Logo2 a {
     color: rgba(14, 5, 120, 1);
     font-size: 48px;
     line-height: 72px;
@@ -323,13 +322,14 @@ td {
     margin: 30px;
 }
 
-.theEnd span {
-    color: #000;
-    font-family: "Jost-Regular", sans-serif;
-    font-size: 26px;
-}
-
 .theEnd a img {
     width: 40px;
     height: 40px;
+    margin-left: 30px;
+}
+
+.icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 }
